@@ -8,9 +8,10 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 import nltk
 import tiktoken
 
-client = OpenAI(
-    api_key="xxxxxx"
-)
+# uncomment and add your key
+# client = OpenAI(
+#     api_key="my_openai_api_key"
+# )
 
 MODEL = "text-embedding-3-small"
 

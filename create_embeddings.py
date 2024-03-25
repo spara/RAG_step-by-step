@@ -9,7 +9,7 @@ import nltk
 import tiktoken
 
 client = OpenAI(
-    api_key="my_openai_key"
+    api_key="xxxxxx"
 )
 
 MODEL = "text-embedding-3-small"

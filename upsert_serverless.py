@@ -5,7 +5,7 @@ from pinecone import ServerlessSpec, PodSpec
 f = open('vector_store.json', "r")
 embeds = json.load(f)
 
-pc = Pinecone(api_key="my_pinecone_api_key")
+pc = Pinecone(api_key="xxxx")
 
 
 index_name = "serverless-future-ai"

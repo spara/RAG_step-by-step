@@ -6,3 +6,4 @@ openai==1.14.3
 pinecone==0.1.0
 tiktoken==0.6.0
 youtube_transcript_api==0.6.2
+streamlit==1.32.2

@@ -6,6 +6,6 @@ There are two examples. The [open source example](/RAG_opensource/) uses Ollama,
 
 [RAG Step-by-Step](https://dev.to/spara_50/rag-step-by-step-3fof) covers the SaSS example.
 
-[RAG Step-by-Step with Open Source]() covers the open source example.
+[RAG Step-by-Step with Open Source](https://dev.to/spara_50/rag-step-by-step-open-source-edition-330g) covers the open source example.
 
 

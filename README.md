@@ -2,23 +2,10 @@
 
 This is a working example of [Frank Denneman's](https://www.linkedin.com/in/frankdenneman/) article [RAG Architecture Deep Dive](https://www.linkedin.com/pulse/rag-architecture-deep-dive-frank-denneman-4lple/) which defines the Load-Transform-Embed-Store workflow. For building RAG applications.
 
-Examples for [RAG Step-by-Step](https://dev.to/spara_50/rag-step-by-step-3fof).
+There are two examples. The [open source example](/RAG_opensource/) uses Ollama, llama2, and PostgeSQL with pgvector. The [SaSS example](./RAG_SaSS/) uses OpenAI GPT3.5 and Pinecone.
 
-- get_transcript.py: retrieves transcripts from Youtube videos
-- create_embeddings.py: splits the transcripts in chunks and creates vectors from the data
-- upsert-serverless.py: creates a Pincone index and upserts the embeddins to a serverless vector database
-- app.py: a Streamlit client for querying the Pinecone database and prompting OpenAI
+[RAG Step-by-Step](https://dev.to/spara_50/rag-step-by-step-3fof) covers the SaSS example.
 
-To run the exanples:
+[RAG Step-by-Step with Open Source]() covers the open source example.
 
-```bash
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-```
 
-To run the client application:
-
-```bash
-streamllit run app.py
-```

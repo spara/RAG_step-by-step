@@ -40,7 +40,7 @@ pip install -r requirements.txt
 
 4. Create a PostgreSQL database. Use either [pgsql](https://docs.risingwave.com/docs/current/install-psql-without-postgresql/) or a client such as [pgAdmin](https://www.pgadmin.org/) or [DBeaver](https://dbeaver.io/). The example uses a database called `items`.
 
-5. Run `python3 create_embedding.py` to insert the records into PostgreSQL.
+5. Run `python3 insert_embeddings.py` to insert the records into PostgreSQL.
 
 6. Run `streamllit run app.py` to run the client. Note that the `database_search` function in the application includes queries for cosine similarity, L2 distance, and inner product [metrics](https://www.imaurer.com/which-vector-similarity-metric-should-i-use/). To experiment with similarity metrics, uncomment the chosen metric and comment the other metrics.
 

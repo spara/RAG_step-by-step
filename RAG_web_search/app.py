@@ -6,8 +6,9 @@ from langchain_community.document_transformers import BeautifulSoupTransformer
 from duckduckgo_search import DDGS
 import re
 
+# Add  api key
 client = OpenAI(
-    api_key="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"
+    api_key=
 )
 
 # performs DuckDuckGo search, urls are extracted and status checked
